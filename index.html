@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <style>
+        .container{
+          display:flex;
+          justify-content: center;
+          width:80%;
+        }
+        .test-image-background {
+          background:  url('http://placekitten.com/1500/1000') no-repeat ;
+          width:40%;
+          height:70vh;
+          position:absolute;
+          background-size: cover;
+          background-position: center 0;
+          margin-top:2rem;
+          left:30%;
+        }
+        .text{
+          position: absolute;
+          top:65vh;
+          width: 100%;
+          text-align: center;
+          margin: auto;
+          padding: 0;
+          left: 0;
+          margin-top:4rem;
+}
+button{
+  position: absolute;
+  top:70vh;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  left: 0;
+  margin-top:4rem;
+}
+        @media (max-width:620px){
+          body{
+            background:yellow;
+          }
+          .test-image-background{
+            margin-top:5rem;
+            width:70%;
+            left:15%;
+          }
+          .text{
+            top:46vh;
+            margin-top:13rem;
+          }
+          button{
+            top:52vh;
+            margin-top:12rem;
+          }
+        }
+
+        </style>
+    </head>
+    <body>
+      <div class="container">
+      <div class="test-image-background">
+        <p class="text"> jakis tekst</p>
+        <button>Test</button>
+      </div>
+
+      </div>
+    </body>
+</html>
